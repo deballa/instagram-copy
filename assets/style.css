@@ -1,0 +1,174 @@
+.search {
+   position: relative;
+}
+   .search input {
+       height: 40px;
+       text-indent: 30px;
+       background-color: #efefef;
+       border: none;
+       width: 250px;
+   }
+   .search input:focus {
+      box-shadow: none;
+      border: 1px solid #8e8e8e;
+      background-color: #efefef;
+      text-indent: 0;
+   }
+
+   .search #search__ico--search {
+      color: #8e8e8e;
+      position: absolute;
+      top: 13px;
+      left: 16px;
+   }
+
+input::-webkit-search-cancel-button {
+   -webkit-appearance: none;
+   content: URL("https://pro.fontawesome.com/releases/v5.10.0/svgs/solid/times-circle.svg");
+   cursor: pointer;
+   width: 20px;
+   opacity: .5;
+}
+
+.img-dimension {
+   transform: scale(1.5);
+   width: 100%;
+ }
+
+ .menu__topbar--profile-photo,
+ .post__message--profile-photo {
+   width: 1.7em;
+   height: 1.7em;
+   position: relative;
+ }
+
+
+.menu__link--ico,
+.post__link--ico {
+   color: #262626;
+}
+   .menu__link--ico:hover,
+   .post__link--ico:hover {
+      color: #525252;
+   }
+
+
+.stories__profile--photo {
+   width: 56px;
+   height: 56px;
+   position: relative;
+ }
+
+.stories__username{
+   font-size: small;
+ }
+
+.post p {
+   font-size: 14px;
+   font-weight: 600;
+}
+   .post__profile svg {
+      cursor: pointer;
+   }
+
+   .post__profile--photo {
+      width: 38px;
+      height: 38px;
+      position: relative;
+   }
+
+   .post__interactions a:hover {
+      color: #a2a2a2;
+   }
+      .post__interactions a:first-child {
+         color: #ed4956;
+      }
+
+      .post__interactions a:nth-child(2) {
+         transform: scaleX(-1);
+      }
+
+   .post__message p {
+      font-weight: 400;
+   }
+      .post__message p:nth-child(3) {
+         cursor: pointer;
+      }
+
+      .post__message p:nth-child(6){
+         font-size: 10px;
+         cursor: pointer;
+      }
+
+   .post__message svg {
+      cursor: pointer;
+   }
+      .post__message svg:hover {
+         color: #a2a2a2;
+      }
+
+.footer a {
+   color: #b7e1fc;
+   font-weight: 600;
+}
+   .footer a, svg {
+      cursor: pointer;
+   }
+   .footer a, input, input::placeholder {
+      font-size: 14px !important;
+   }
+
+   .footer input:focus {
+      box-shadow: none;
+   }
+
+.account p {
+   font-size: 14px;
+}
+
+.account .account__link {
+   font-size: 12px;
+   color: #0095f6;
+}
+
+.account .account__link--destaque {
+   color: #262626;
+   font-size: 12px;
+}
+
+.account .account__follower {
+   font-size: 12px;
+}
+
+
+.account {
+   position: fixed;
+   top: 90px;
+   /* right: 17%; */
+}
+
+.account .account__link--intagram p {
+   font-size: 11px;
+   color: #c7c7c7;
+}
+
+header {
+   position: fixed;
+   top: 0;
+   z-index: 999;
+   width: 100%;
+}
+
+main {
+   margin-top: 85px;
+}
+
+/*Responsive*/
+@media (max-width: 768px) {
+   form {
+      display: none;
+   }
+   aside {
+      display: none;
+   }
+}
